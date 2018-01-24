@@ -1,2 +1,1 @@
-# macyapp
-Drag and drop picture game for mobile.
+# macyapp.github.io
