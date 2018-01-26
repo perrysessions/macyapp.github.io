@@ -13,7 +13,7 @@ var angle = 0;
 
 interact('#rotate-area').gesturable({
   onmove: function (event) {
-    var arrow = document.getElementByClassName('arrow');
+    var arrow = document.getElementById('arrow');
 
     angle += event.da;
 
@@ -21,7 +21,7 @@ interact('#rotate-area').gesturable({
     arrow.style.transform =
       'rotate(' + angle + 'deg)';
 
-    document.getElementByClassName('angle-info').textContent =
+    document.getElementById('angle-info').textContent =
       angle.toFixed(2) + '&Acirc;&deg;';
   }
 });
