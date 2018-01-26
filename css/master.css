@@ -21,6 +21,8 @@ button {
 /*rotate*/
 #rotate-area {
   overflow: hidden;
+  background-image: url(https://lunicity.com/wp-content/uploads/2017/12/lunicity-logo-2-no-bg.png);
+  background-size: cover;
 }
 
 #arrow {
